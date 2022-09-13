@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+h1, p {
+    text-align: center;
+    
+}
+
+table {
+    display: block;
+    padding: 50px 298px;
+    align-items: center;
+
+
+
+}
+
+th {
+    background-color: #f29f05;
+    color: white;
+    padding: 10px;
+}
+tr, td {
+    padding: 10px 80px;
+    
+}
+td {
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: yellow;}
