@@ -1,0 +1,100 @@
+
+.heading {
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+/* -----------------nav bar styling--------------------------------- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover , a:active{
+    color: black;
+    background-color: yellow;
+    padding: 12px;
+}
+/* ---------------------------------------------------------------------- */
+/* ------------------paragragh styling----------------------------------- */
+.paragraph{
+    align-items: center;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* ------------------------------------------------------------------------ */
+/* ---------------------images styling------------------------------------- */
+.img {
+    padding-left: 190px;
+}
+/* ----------------------------------------------------------------------- */
+/*--------------------- form styling -------------------------------------*/
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.row a {
+    text-decoration: none;
+    background-color: yellow;
+    color: black; 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.row a:hover {
+    color: white;
+    background-color: #f29f05;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ------------------------------------------------------------------- */
