@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript start | Day 05</title>
+</head>
+<body>
+    <h1>Javascript Day 05 | Softoo Bootcamps</h1>
+    <script>
+//--------------------------------------Programs for two variables------------------
+        let num1 = 25;
+        let num2 = 11;
+        var sum = num1 + num2;
+        console.log(sum);
+        var sub = num1 - num2;
+        console.log(sub);
+        var multiply =num1*num2;
+        console.log(multiply);
+        var div = num1/num2;
+        console.log(div);
+//-----------------object deceleration-------------------------------------------------
+        const person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue"
+        };
+        console.log(person);
+//----------------------------------object car----------------------------------------------    
+        const car ={
+            model: "audi",
+            year: 2020,
+            body: "original",
+            color: "black",
+            type: "automatic"
+        };
+        console.log(car);
+// ---------------------object laptop-------------------------------------------------------
+        const laptop = {
+            model:"macbook",
+            year: 2017,
+            touchBar: true,
+            color:"silver",
+            keys: "butterfly",
+        };
+        console.log(laptop);
+
+//-----------------------declare array and sorting-------------------------------------
+        const fruits = ["Banana", "Orange", "Apple", "Mango","pineapple", "avocado", "kiwi"];
+        fruits.sort(function(a, b){return a-b});
+        let lowest = fruits[0];
+        console.log(fruits);
+
+        const points = [20, 25, 85, 65, 78 , 12 ,01, 82];
+        points.sort(function(a, b){return a-b});                                
+        let highest = points[85];
+        console.log(points); 
+
+
+    </script>
+</body>
+</html>
